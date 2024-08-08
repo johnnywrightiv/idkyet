@@ -37,6 +37,9 @@ const Hero = (): JSX.Element => {
         <p className={`${lusitana.className} text-lg`}>
           Your success starts here.
         </p>
+        <button className="bg-red-500" id="123">
+          abc
+        </button>
       </div>
       <NavigateButton route="/dogs" label="Test 404" />
       <NavigateButton route="/dashboard" label="Dashboard" />
