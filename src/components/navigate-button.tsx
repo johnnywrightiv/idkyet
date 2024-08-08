@@ -1,28 +1,21 @@
-"use client";
+// "use client";
 
-import React from "react";
-import { useRouter } from "next/navigation";
+import Link from 'next/link';
 
 interface NavigateButtonProps {
   route: string;
   label: string;
 }
 
-const NavigateButton: React.FC<NavigateButtonProps> = ({ route, label }) => {
-  const router = useRouter();
-
-  const handleClick = () => {
-    router.push(route);
-  };
-
+function NavigateButton({ route, label }: NavigateButtonProps) {
   return (
-    <button
-      onClick={handleClick}
-      className="px-4 py-2 mt-2 bg-blue-500 hover:bg-blue-700 hover:scale-105 text-white rounded"
+    <Link
+      href={route}
+      className="inline-block px-4 py-2 mt-2 bg-blue-500 hover:bg-blue-700 hover:scale-105 text-white rounded"
     >
       {label}
-    </button>
+    </Link>
   );
-};
+}
 
 export default NavigateButton;

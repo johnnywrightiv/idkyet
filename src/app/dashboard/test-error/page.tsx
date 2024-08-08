@@ -1,6 +1,6 @@
-import React from "react";
-import NavigateButton from "@/components/navigate-button";
-import ErrorBanner from "@/components/error-banner";
+import React from 'react';
+import NavigateButton from '@/components/navigate-button';
+import ErrorBanner from '@/components/error-banner';
 
 function TestErrorPage() {
   return (

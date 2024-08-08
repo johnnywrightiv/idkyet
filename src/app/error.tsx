@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import React from "react";
-import NavigateButton from "@/components/navigate-button";
+import React from 'react';
+import NavigateButton from '@/components/navigate-button';
 
 const Error = ({ error, reset }: { error: Error; reset: () => void }) => {
   return (

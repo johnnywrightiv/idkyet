@@ -1,5 +1,5 @@
-import React from "react";
-import NavigateButton from "@/components/navigate-button";
+import React from 'react';
+import NavigateButton from '@/components/navigate-button';
 
 async function Dashboard() {
   return (

@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import { inter } from "@/app/fonts";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { inter } from '@/app/fonts';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: "IDKYET",
-  description: "IDK-yet-bruv",
+  title: 'IDKYET',
+  description: 'IDK-yet-bruv',
 };
 
 export default function RootLayout({

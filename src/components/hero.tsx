@@ -1,6 +1,6 @@
-import Image from "next/image";
-import NavigateButton from "./navigate-button";
-import { lusitana } from "@/app/fonts";
+import Image from 'next/image';
+import NavigateButton from './navigate-button';
+import { lusitana } from '@/app/fonts';
 
 const Hero = (): JSX.Element => {
   return (
@@ -12,7 +12,7 @@ const Hero = (): JSX.Element => {
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: "100%", height: "auto" }}
+          style={{ width: '100%', height: 'auto' }}
           className="hidden md:block"
           priority
         />
@@ -24,7 +24,7 @@ const Hero = (): JSX.Element => {
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: "100%", height: "auto" }}
+          style={{ width: '100%', height: 'auto' }}
           className="md:hidden"
           priority
         />

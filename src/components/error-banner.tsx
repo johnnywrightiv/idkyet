@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
 function ErrorBanner() {
   const [throwError, setThrowError] = useState(false);
@@ -14,7 +14,7 @@ function ErrorBanner() {
   }, []);
 
   if (throwError) {
-    throw new Error("This is a test error to check error handling.");
+    throw new Error('This is a test error to check error handling.');
   }
 
   return <p>error will throw in 2 seconds</p>;
